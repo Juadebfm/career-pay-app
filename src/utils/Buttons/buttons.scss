@@ -1,0 +1,91 @@
+@use '../../Styles/variables' as *;
+
+
+// Base button styles
+button {
+  font-family: $primaryFont;
+  font-weight: $secondaryWeight;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  border-radius: 4px;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// Big Button
+.bigBtn {
+  padding: 12px 24px;
+  font-size: $mediumFSize;
+  font-weight: $primaryWeight;
+  background-color: $btnColor;
+  color: white;
+  border-radius: 10px;
+
+  &:hover {
+    background-color: darken($btnColor, 10%);
+  }
+}
+
+// Small Button
+.smallBtn {
+  padding: 10px 20px;
+  font-size: $mediumFSizeMobile;
+  font-weight: $secondaryWeight;
+  text-transform: uppercase;
+  border: 2px solid $btnColor;
+  background-color: transparent;
+  color: $btnColor;
+
+  &:hover {
+    background-color: $btnColor;
+    color: white;
+  }
+}
+
+// Icon Button
+.btnIcon {
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: $mediumFSize;
+  border-radius: 50%;
+  background-color: $btnColor;
+  color: white;
+
+  svg {
+    font-size: $mediumFSizeMobile;
+  }
+
+  &:hover {
+    background-color: darken($btnColor, 10%);
+  }
+}
+
+// Outline Button
+.btnOutline {
+  padding: 10px 24px;
+  font-size: $mediumFSize;
+  font-weight: $tertiaryWeight;
+  background-color: transparent;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: $secondaryColor;
+  border-radius: 10px;
+
+  &:hover {
+    background-color: $btnColor;
+    color: white;
+  }
+}
+
+@media (max-width: 768px) {
+    .bigBtn {
+        padding: 8px 16px;
+      }
+}
