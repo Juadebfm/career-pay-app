@@ -1,4 +1,3 @@
-import React from "react";
 import { IoCheckmark } from "react-icons/io5";
 import { HiArrowRight } from "react-icons/hi2";
 
@@ -6,7 +5,7 @@ const Results = () => {
   return (
     <section className="px-[35px] lg:px-[110px] pt-6 min-h-[50vh] lg:min-h-screen grid grid-cols-1 lg:grid-cols-2 items-center justify-between gap-10 lg:gap-28">
       <div className="w-full lg:w-auto">
-        <img src="/fix.svg" alt="" className="w-full"/>
+        <img src="/fix.svg" alt="" className="w-full" />
       </div>
 
       <div>
@@ -31,8 +30,8 @@ const Results = () => {
               <span className="font-sfPro capitalize font-semibold text-[#121212]">
                 Complete automation
               </span>
-              <span className="font-sfPro capitalize font-normal text-[#121212]/70">
-                - Full payroll processing ensuring compliance and accuracy
+              <span className="font-sfPro font-normal text-[#121212]/70">
+                - Full payroll processing ensuring compliance and accuracy.
               </span>
             </div>
           </div>
@@ -45,8 +44,8 @@ const Results = () => {
               <span className="font-sfPro capitalize font-semibold text-[#121212]">
                 Zero complexity
               </span>
-              <span className="font-sfPro capitalize font-normal text-[#121212]/70">
-                - Simplified ESOP management to attract and retain top talent
+              <span className="font-sfPro font-normal text-[#121212]/70">
+                - Simplified ESOP management to attract and retain top talent.
               </span>
             </div>
           </div>
@@ -59,8 +58,8 @@ const Results = () => {
               <span className="font-sfPro capitalize font-semibold text-[#121212]">
                 Financial flexibility
               </span>
-              <span className="font-sfPro capitalize font-normal text-[#121212]/70">
-                - Talent credit financing options to manage cash flow challenges
+              <span className="font-sfPro font-normal text-[#121212]/70">
+                - Talent credit financing options to manage cash flow challenges.
               </span>
             </div>
           </div>
@@ -73,8 +72,8 @@ const Results = () => {
               <span className="font-sfPro capitalize font-semibold text-[#121212]">
                 Smart efficiency
               </span>
-              <span className="font-sfPro capitalize font-normal text-[#121212]/70">
-                - Streamlined processes that save time and resources
+              <span className="font-sfPro font-normal text-[#121212]/70">
+                - Streamlined processes that save time and resources.
               </span>
             </div>
           </div>

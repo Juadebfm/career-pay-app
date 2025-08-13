@@ -4,7 +4,7 @@ const Catch = () => {
   return (
     <section className="px-[35px] lg:px-[110px] py-10 text-whtie">
       <div className="bg-[#121212] min-h-[447px] rounded-lg text-white flex flex-col lg:flex-row items-center justify-between">
-        <div className="p-[60px] w-full lg:w-[80%]">
+        <div className="px-[20px] lg:px-[60px] py-[35px] lg:py-[60px] w-full lg:w-[80%]">
           <h2 className="text-4xl lg:text-[50px] leading-[1.1] mb-6">Access borderless financial management in one digital space</h2>
           <p className="text-lg text-white/70 font-sfPro font-light">
             Break free from traditional compensation limitations. Career Pay

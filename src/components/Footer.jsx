@@ -1,4 +1,7 @@
 import React from "react";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaFacebookSquare, FaLinkedin } from "react-icons/fa";
+import { IoLogoYoutube } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -126,25 +129,34 @@ const Footer = () => {
           <p className="text-sm text-gray-400 text-center md:text-left">
             © 2025 CareerPay. All rights reserved.
           </p>
-          <div className="flex justify-center md:justify-end space-x-8">
-            <Link
-              to="/privacy"
-              className="text-sm text-gray-400 hover:text-white transition-colors"
-            >
-              Privacy
-            </Link>
-            <Link
-              to="/terms"
-              className="text-sm text-gray-400 hover:text-white transition-colors"
-            >
-              Terms
-            </Link>
-            <Link
-              to="/cookies"
-              className="text-sm text-gray-400 hover:text-white transition-colors"
-            >
-              Cookies
-            </Link>
+
+          <div>
+            <div className="flex items-center justify-center lg:justify-between w-full lg:w-[70%] mb-2 space-x-2">
+              <AiFillInstagram className="w-6 h-6 hover:text-white text-gray-400" />
+              <FaLinkedin className="w-6 h-6 hover:text-white text-gray-400" />
+              <FaFacebookSquare className="w-6 h-6 hover:text-white text-gray-400" /> 
+              <IoLogoYoutube className="w-6 h-6 hover:text-white text-gray-400" />
+            </div>
+            <div className="flex justify-center md:justify-end space-x-8">
+              <Link
+                to="/privacy"
+                className="text-sm text-gray-400 hover:text-white transition-colors"
+              >
+                Privacy
+              </Link>
+              <Link
+                to="/terms"
+                className="text-sm text-gray-400 hover:text-white transition-colors"
+              >
+                Terms
+              </Link>
+              <Link
+                to="/cookies"
+                className="text-sm text-gray-400 hover:text-white transition-colors"
+              >
+                Cookies
+              </Link>
+            </div>
           </div>
         </div>
       </div>
