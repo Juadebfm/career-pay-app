@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sfPro: ["SF-Pro-Rounded", "system-ui", "sans-serif"],
+        sfPro: ["Questrial", "sans-serif"],
       },
       backgroundImage: {
         homeHero:

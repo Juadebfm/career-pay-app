@@ -1,31 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@font-face {
-  font-family: "SF-Pro-Rounded";
-  src: url("/font/SF-Pro-Rounded-Light.otf") format("opentype");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "SF-Pro-Rounded";
-  src: url("/font/SF-Pro-Rounded-Regular.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "SF-Pro-Rounded";
-  src: url("/font/SF-Pro-Rounded-medium.otf") format("opentype");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "SF-Pro-Rounded";
-  src: url("/font/SF-Pro-Rounded-Bold.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
-}
